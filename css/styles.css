@@ -1,0 +1,26 @@
+.nav-link{
+    font-size: 25px;
+    color: #18dcff;
+
+}
+.nav-link:hover{
+    border-top: solid 1px #7efff5;
+    border-bottom: solid 1px#7efff5;
+}
+.bg-gris
+{
+    
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.icono-40{
+    font-size: 40px;
+    color: aqua;
+}
+.card{
+    box-shadow: 1px 1px 3px #2c2c2c;
+    transition: all 0.5s;
+
+}
+.card:hover{
+    transform: translateY(10px);
+}
