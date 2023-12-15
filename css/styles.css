@@ -24,3 +24,110 @@
 .card:hover{
     transform: translateY(10px);
 }
+
+#productos{
+	background-image: url("../img/banner2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
+	background-attachment: fixed;
+    
+	
+}
+#productos .col-md-4{
+    transition: all 0.5s;
+}
+#productos .col-md-4:hover {
+    transform: translateY(-10px);
+  }
+
+
+  .navbar-dark{
+    background-color: black !important;
+}
+.cajaColor1{
+    background-color: #0984e3;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.cajaColor1:hover{
+    background-color: #74b9ff;
+    box-shadow: 2px 2px 5px #000 !important;
+}
+.cajaColor2{
+    background-color: #00b894;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.cajaColor2:hover{
+    background-color: #55efc4;
+    box-shadow: 2px 2px 5px #000 !important;
+}
+.cajaColor3{
+    background-color: #6c5ce7;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.cajaColor3:hover{
+    background-color: #a29bfe;
+    box-shadow: 2px 2px 5px #000 !important;
+}
+.cajaColor4{
+    background-color: #00cec9;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.cajaColor4:hover{
+    background-color: #81ecec;
+    box-shadow: 2px 2px 5px #000 !important;
+}
+.cajaColor4{
+    background-color: #d63031;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.cajaColor4:hover{
+    background-color: #ff7675;
+    box-shadow: 2px 2px 5px #000 !important;
+}
+.cajaColor5{
+    background-color: #e84393;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.cajaColor5:hover{
+    background-color: #fd79a8;
+    box-shadow: 2px 2px 5px #000 !important;
+}
+.cajaColor6{
+    background-color: #6F1E51;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.cajaColor6:hover{
+    background-color: #833471;
+    box-shadow: 2px 2px 5px #000 !important;
+}
+
+td{
+    vertical-align: middle;
+}
+
+#equipo{
+    padding-bottom: 100px;
+    background-color: #000;
+}
+#equipo .card{
+    transition: all 0.5s;
+}
+#equipo .card:hover {
+
+    transform: translateY(10px);
+  
+}
+footer{
+    padding: 50px;
+    height: 300px;
+    background-color: #000;
+}
+  

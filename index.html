@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Clase 05</title>
     <link rel="stylesheet" href="vendor/bootstrap-5.3.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="vendor/boxicons/css/boxicons.min.css">
     <link rel="stylesheet" href="vendor/aos/aos.css">
+    <link rel="stylesheet" href="vendor/datatable/dataTables.bootstrap5.min.css">
+    
 
 
 </head>
@@ -21,16 +23,16 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent" >
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link " aria-current="page" href="#" data-aos="flip-down" data-aos-duration="1000">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Nosotros</a>
+                    <a class="nav-link" href="#" data-aos="flip-down" data-aos-duration="2000">Nosotros</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-aos="flip-down" data-aos-duration="3000">
                       Servicios
                     </a>
                     <ul class="dropdown-menu">
@@ -42,7 +44,7 @@
                     </ul>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-aos="flip-down" data-aos-duration="3000">
                       Productos
                     </a>
                     <ul class="dropdown-menu">
@@ -55,16 +57,23 @@
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Clientes</a>
+                    <a class="nav-link" href="#" data-aos="flip-down" data-aos-duration="3000">Clientes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Equipos</a>
+                    <a class="nav-link" href="#" data-aos="flip-down" data-aos-duration="3000">Equipos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contactos</a>
+                    <a class="nav-link" href="#" data-aos="flip-down" data-aos-duration="3000">Contactos</a>
                   </li>
+                  
                 </ul>
-                
+                <form class="d-flex" role="search">
+                  <a href="#" class="btn btn-outline-info btn-lg" data-aos="fade-left" data-aos-duration="700"><i class="bx bxl-twitter fs-3 fade-left" ></i></a>
+                  <a href="#" class="btn btn-outline-info btn-lg" data-aos="fade-left" data-aos-duration="1500" ><i class="bx bxl-facebook fs-3 fade-left"></i></a>
+                  <a href="#" class="btn btn-outline-info btn-lg" data-aos="fade-left" data-aos-duration="2000"><i class="bx bxl-instagram fs-3 fade-left"></i></a>
+                  <a href="#" class="btn btn-outline-info btn-lg" data-aos="fade-left" data-aos-duration="2500"><i class="bx bxl-skype fs-3 fade-left"></i></a>
+                  <a href="#" class="btn btn-outline-info btn-lg" data-aos="fade-left" data-aos-duration="3000"><i class="bx bxl-linkedin fs-3 "></i></a>
+              </form>
               </div>
             </div>
           </nav>
@@ -86,8 +95,8 @@
                       <p>Some representative placeholder content for the first slide.</p>
                     </div>
                   </div>
-                  <div class="carousel-item">
-                    <img src="img/banner2.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-item" >
+                    <img src="img/banner2.jpg" class="d-block w-100"  alt="..." >
                     <div class="carousel-caption d-none d-md-block bg-gris">
                       <h1>Second slide label</h1>
                       <p>Some representative placeholder content for the second slide.</p>
@@ -127,7 +136,7 @@
                         <p ><i class="bx bx-check icono-40  "></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, similique.</p>
                     </div>
                     <div class="col-md-6">
-                        <img src="img/nosotros.jpg" alt="" class="card-img-top">
+                        <img src="img/nosotros.jpg" alt="" class="card-img-top" data-aos="zoom-in-down" data-aos-duration="3000">
                     </div>
                 </div>
         </section>
@@ -232,31 +241,923 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    
-                </div>
-                <div class="col-md-3">
-                    
-                </div>
-
+                
+                
             </div>
         </div>
         </section>
+        <section id="productos" class="mt-5 pt-5 mb-5">
+          <h1 class="display-3 p-5 text-center text-secondary text-dark">PRODUCTOS</h1>
+          <div class="container">
+            <div class="row">
+            
+                  <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="text-center p-4  text-white shadow mb-5 rounded cajaColor1">
+                      <img src="img/servicios1.jpg" alt="" class="img-fluid rounded-circle" width="100px">
+                      <p class="m-4 lead"><strong>Producto I</strong> </p>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eius, consequuntur perspiciatis doloremque ipsa mollitia ullam dolorem vero? Alias tempore nemo tenetur quia reprehenderit dolorum architecto nobis suscipit temporibus quidem?</p>
+                       <a href="#" class="btn btn-outline-dark">Más Información</a>
+                  </div>  
+                </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="150">
+                  <div class="text-center  p-4  text-white shadow mb-5 rounded cajaColor2">
+                      <img src="img/servicios2.jpg" alt="" class="img-fluid rounded-circle" width="100px">
+                      <p class="m-4 lead"><strong>Producto I</strong> </p>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eius, consequuntur perspiciatis doloremque ipsa mollitia ullam dolorem vero? Alias tempore nemo tenetur quia reprehenderit dolorum architecto nobis suscipit temporibus quidem?</p>
+                      <a href="#" class="btn btn-outline-dark">Más Información</a>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="text-center p-4  text-white shadow mb-5 rounded cajaColor3">
+                      <img src="img/servicios3.jpg" alt="" class="img-fluid rounded-circle" width="100px">
+                      <p class="m-4 lead"><strong>Producto II</strong> </p>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eius, consequuntur perspiciatis doloremque ipsa mollitia ullam dolorem vero? Alias tempore nemo tenetur quia reprehenderit dolorum architecto nobis suscipit temporibus quidem?</p>
+                        <a href="#" class="btn btn-outline-dark">Más Información</a>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="250">
+                  <div class="text-center p-4  text-white shadow mb-5 rounded cajaColor4">
+                      <img src="img/servicios4.jpg" alt="" class="img-fluid rounded-circle" width="100px">
+                      <p class="m-4 lead"><strong>Producto III</strong> </p>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eius, consequuntur perspiciatis doloremque ipsa mollitia ullam dolorem vero? Alias tempore nemo tenetur quia reprehenderit dolorum architecto nobis suscipit temporibus quidem?</p>
+                       <a href="#" class="btn btn-outline-dark">Más Información</a>
+                  </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+                  <div class="text-center p-4  text-white shadow mb-5 rounded cajaColor5">
+                      <img src="img/servicios5.jpg" alt="" class="img-fluid rounded-circle" width="100px">
+                      <p class="m-4 lead"><strong>Producto IV</strong> </p>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eius, consequuntur perspiciatis doloremque ipsa mollitia ullam dolorem vero? Alias tempore nemo tenetur quia reprehenderit dolorum architecto nobis suscipit temporibus quidem?</p>
+                          <a href="#" class="btn btn-outline-dark">Más Información</a>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="350">
+                  <div class="text-center   p-4  text-white shadow mb-5 rounded cajaColor6">
+                      <img src="img/servicios6.jpg" alt="" class="img-fluid rounded-circle" width="100px">
+                      <p class="m-4 lead"><strong>Producto V</strong> </p>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eius, consequuntur perspiciatis doloremque ipsa mollitia ullam dolorem vero? Alias tempore nemo tenetur quia reprehenderit dolorum architecto nobis suscipit temporibus quidem?</p>
+                       <a href="#" class="btn btn-outline-dark">Más Información</a>
+                  </div>  
+                </div>
+            </div>
+          </div>
+        </section>
+        <section id="clientes">
+          <h1 class="display-3 p-5 text-center text-secondary ">CLIENTES</h1>
+          <div class="container">
+            <table class="table table-bordered table-hover table-striped">
+              <thead>
+                <tr class=" text-white text-center table-dark" >
+                  <th>Pagina</th>
+                  <th>Nombre</th>
+                  <th>Tipo</th>
+                  <th>Sector</th>
+                  <th>Pais</th>
+                </tr>
+              </thead>
+              <tbody class="text-center" >
+                <tr>
+                  <td><img src="img/cliente1.jpg" alt="" ></td>
+                  <td>Manelca</td>
+                  <td>Venta</td>
+                  <td>Electrico</td>
+                  <td>Venezuela</td>
+                </tr>
+                <tr>
+                  <td><img src="img/cliente2.jpg" alt="" ></td>
+                  <td>Arfecar</td>
+                  <td>Taller</td>
+                  <td>Mecanica</td>
+                  <td>España</td>
+                </tr>
+                <tr>
+                  <td><img src="img/cliente3.jpg" alt="" ></td>
+                  <td>Essca</td>
+                  <td>Venta</td>
+                  <td>Seguridad</td>
+                  <td>Venezuela</td>
+                </tr>
+                <tr>
+                  <td><img src="img/cliente4.jpg" alt="" ></td>
+                  <td>Paradise Spa</td>
+                  <td>Salud</td>
+                  <td>Spa</td>
+                  <td>Venezuela</td>
+                </tr>
+                <tr>
+                  <td><img src="img/cliente5.jpg" alt="" ></td>
+                  <td>Cauchos Ling Long</td>
+                  <td>Venta</td>
+                  <td>Automotriz</td>
+                  <td>Venezuela</td>
+                </tr>
+                <tr>
+                  <td><img src="img/cliente6.jpg" alt="" ></td>
+                  <td>hidroca</td>
+                  <td>Venta</td>
+                  <td>Industria</td>
+                  <td>Venezuela</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                  <tfoot>
+                    <tr class="bg-dark text-white text-center">
+                      <th colspan="5" class="text-center">
+                        Total Clientes 6
+                      </th>
+                      
+                    </tr>
+                  </tfoot>
+              </tfoot>
+            </table>
+            <div class="py-5">
+              <table  id="example" class="table table-striped table-bordered table-hover" style="width:100%">
+                <thead>
+                  <tr class="text-center table-danger">
+                    <th>
+                      id
+                    </th>
+                    <th>
+                      nombre
+                    </th>
+                    <th>
+                      apellido
+                    </th>
+                    <th>
+                      correo
+                    </th>
+                    <th>
+                      telefono
+                    </th>
+                    <th>
+                      accion
+                    </th>
+                  </tr>
+              </thead>
+              <tbody>
+                <tr class="text-center">
+                  <td> 1</td>
+                  <td>Ramses</td>
+                  <td>ojeda</td>
+                  <td>ramsesaob@gmail.com</td>
+                  <td>0424-7177127</td>
+                  <td class="d-flex justify-content-center">
+                    <a class="btn btn-info me-2" href="#" role="button">ver</a>
+                    
+                    <div class="dropdown">
+                      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown button
+                      </button>
+                      <ul class="dropdown-menu btn-sm">
+                        <li><a class="dropdown-item " href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </div>
+                  </td>
+                  </tr>
+                  <tr class="text-center">
+                    <td> 2</td>
+                    <td>Ramses</td>
+                    <td>ojeda</td>
+                    <td>ramsesaob@gmail.com</td>
+                    <td>0424-7177127</td>
+                    <td class="d-flex justify-content-center">
+                      <a class="btn btn-info me-2" href="#" role="button">ver</a>
+                      
+                      <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown button
+                        </button>
+                        <ul class="dropdown-menu btn-sm">
+                          <li><a class="dropdown-item " href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </div>
+                    </td>
+                    </tr>
+                    <tr class="text-center">
+                      <td> 3</td>
+                      <td>Ramses</td>
+                      <td>ojeda</td>
+                      <td>ramsesaob@gmail.com</td>
+                      <td>0424-7177127</td>
+                      <td class="d-flex justify-content-center">
+                        <a class="btn btn-info me-2" href="#" role="button">ver</a>
+                        
+                        <div class="dropdown">
+                          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown button
+                          </button>
+                          <ul class="dropdown-menu btn-sm">
+                            <li><a class="dropdown-item " href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          </ul>
+                        </div>
+                      </td>
+                      </tr>
+                      <tr class="text-center">
+                        <td> 4</td>
+                        <td>Ramses</td>
+                        <td>ojeda</td>
+                        <td>ramsesaob@gmail.com</td>
+                        <td>0424-7177127</td>
+                        <td class="d-flex justify-content-center">
+                          <a class="btn btn-info me-2" href="#" role="button">ver</a>
+                          
+                          <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Dropdown button
+                            </button>
+                            <ul class="dropdown-menu btn-sm">
+                              <li><a class="dropdown-item " href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </div>
+                        </td>
+                        </tr>
+                        <tr class="text-center">
+                          <td> 5</td>
+                          <td>Ramses</td>
+                          <td>ojeda</td>
+                          <td>ramsesaob@gmail.com</td>
+                          <td>0424-7177127</td>
+                          <td class="d-flex justify-content-center">
+                            <a class="btn btn-info me-2" href="#" role="button">ver</a>
+                            
+                            <div class="dropdown">
+                              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown button
+                              </button>
+                              <ul class="dropdown-menu btn-sm">
+                                <li><a class="dropdown-item " href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                              </ul>
+                            </div>
+                          </td>
+                          </tr>
+                          <tr class="text-center">
+                            <td> 6</td>
+                            <td>Ramses</td>
+                            <td>ojeda</td>
+                            <td>ramsesaob@gmail.com</td>
+                            <td>0424-7177127</td>
+                            <td class="d-flex justify-content-center">
+                              <a class="btn btn-info me-2" href="#" role="button">ver</a>
+                              
+                              <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Dropdown button
+                                </button>
+                                <ul class="dropdown-menu btn-sm">
+                                  <li><a class="dropdown-item " href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                              </div>
+                            </td>
+                            </tr>
+                            <tr class="text-center">
+                              <td> 7</td>
+                              <td>Ramses</td>
+                              <td>ojeda</td>
+                              <td>ramsesaob@gmail.com</td>
+                              <td>0424-7177127</td>
+                              <td class="d-flex justify-content-center">
+                                <a class="btn btn-info me-2" href="#" role="button">ver</a>
+                                
+                                <div class="dropdown">
+                                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown button
+                                  </button>
+                                  <ul class="dropdown-menu btn-sm">
+                                    <li><a class="dropdown-item " href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                  </ul>
+                                </div>
+                              </td>
+                              </tr>
+                              <tr class="text-center">
+                                <td> 8</td>
+                                <td>Ramses</td>
+                                <td>ojeda</td>
+                                <td>ramsesaob@gmail.com</td>
+                                <td>0424-7177127</td>
+                                <td class="d-flex justify-content-center">
+                                  <a class="btn btn-info me-2" href="#" role="button">ver</a>
+                                  
+                                  <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Dropdown button
+                                    </button>
+                                    <ul class="dropdown-menu btn-sm">
+                                      <li><a class="dropdown-item " href="#">Action</a></li>
+                                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                  </div>
+                                </td>
+                                </tr>
+                                <tr class="text-center">
+                                  <td> 9</td>
+                                  <td>Ramses</td>
+                                  <td>ojeda</td>
+                                  <td>ramsesaob@gmail.com</td>
+                                  <td>0424-7177127</td>
+                                  <td class="d-flex justify-content-center">
+                                    <a class="btn btn-info me-2" href="#" role="button">ver</a>
+                                    
+                                    <div class="dropdown">
+                                      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Dropdown button
+                                      </button>
+                                      <ul class="dropdown-menu btn-sm">
+                                        <li><a class="dropdown-item " href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                      </ul>
+                                    </div>
+                                  </td>
+                                  </tr>
+                                  <tr class="text-center">
+                                    <td> 10</td>
+                                    <td>Ramses</td>
+                                    <td>ojeda</td>
+                                    <td>ramsesaob@gmail.com</td>
+                                    <td>0424-7177127</td>
+                                    <td class="d-flex justify-content-center">
+                                      <a class="btn btn-info me-2" href="#" role="button">ver</a>
+                                      
+                                      <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          Dropdown button
+                                        </button>
+                                        <ul class="dropdown-menu btn-sm">
+                                          <li><a class="dropdown-item " href="#">Action</a></li>
+                                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                      </div>
+                                    </td>
+                                    </tr>
+                                    <tr class="text-center">
+                                      <td> 11</td>
+                                      <td>Ramses</td>
+                                      <td>ojeda</td>
+                                      <td>ramsesaob@gmail.com</td>
+                                      <td>0424-7177127</td>
+                                      <td class="d-flex justify-content-center">
+                                        <a class="btn btn-info me-2" href="#" role="button">ver</a>
+                                        
+                                        <div class="dropdown">
+                                          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Dropdown button
+                                          </button>
+                                          <ul class="dropdown-menu btn-sm">
+                                            <li><a class="dropdown-item " href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                          </ul>
+                                        </div>
+                                      </td>
+                                      </tr>
+                                      <tr class="text-center">
+                                        <td> 12</td>
+                                        <td>Ramses</td>
+                                        <td>ojeda</td>
+                                        <td>ramsesaob@gmail.com</td>
+                                        <td>0424-7177127</td>
+                                        <td class="d-flex justify-content-center">
+                                          <a class="btn btn-info me-2" href="#" role="button">ver</a>
+                                          
+                                          <div class="dropdown">
+                                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                              Dropdown button
+                                            </button>
+                                            <ul class="dropdown-menu btn-sm">
+                                              <li><a class="dropdown-item " href="#">Action</a></li>
+                                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                            </ul>
+                                          </div>
+                                        </td>
+                                        </tr>
+                                        <tr class="text-center">
+                                          <td> 13</td>
+                                          <td>Ramses</td>
+                                          <td>ojeda</td>
+                                          <td>ramsesaob@gmail.com</td>
+                                          <td>0424-7177127</td>
+                                          <td class="d-flex justify-content-center">
+                                            <a class="btn btn-info me-2" href="#" role="button">ver</a>
+                                            
+                                            <div class="dropdown">
+                                              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Dropdown button
+                                              </button>
+                                              <ul class="dropdown-menu btn-sm">
+                                                <li><a class="dropdown-item " href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                              </ul>
+                                            </div>
+                                          </td>
+                                          </tr>
+                                          <tr class="text-center">
+                                            <td> 14</td>
+                                            <td>Ramses</td>
+                                            <td>ojeda</td>
+                                            <td>ramsesaob@gmail.com</td>
+                                            <td>0424-7177127</td>
+                                            <td class="d-flex justify-content-center">
+                                              <a class="btn btn-info me-2" href="#" role="button">ver</a>
+                                              
+                                              <div class="dropdown">
+                                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                  Dropdown button
+                                                </button>
+                                                <ul class="dropdown-menu btn-sm">
+                                                  <li><a class="dropdown-item " href="#">Action</a></li>
+                                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                                </ul>
+                                              </div>
+                                            </td>
+                                            </tr>
+                                            <tr class="text-center">
+                                              <td> 15</td>
+                                              <td>Ramses</td>
+                                              <td>ojeda</td>
+                                              <td>ramsesaob@gmail.com</td>
+                                              <td>0424-7177127</td>
+                                              <td class="d-flex justify-content-center">
+                                                <a class="btn btn-info me-2" href="#" role="button">ver</a>
+                                                
+                                                <div class="dropdown">
+                                                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Dropdown button
+                                                  </button>
+                                                  <ul class="dropdown-menu btn-sm">
+                                                    <li><a class="dropdown-item " href="#">Action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                                  </ul>
+                                                </div>
+                                              </td>
+                                              </tr>
+                                              <tr class="text-center">
+                                                <td> 16</td>
+                                                <td>Ramses</td>
+                                                <td>ojeda</td>
+                                                <td>ramsesaob@gmail.com</td>
+                                                <td>0424-7177127</td>
+                                                <td class="d-flex justify-content-center">
+                                                  <a class="btn btn-info me-2" href="#" role="button">ver</a>
+                                                  
+                                                  <div class="dropdown">
+                                                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                      Dropdown button
+                                                    </button>
+                                                    <ul class="dropdown-menu btn-sm">
+                                                      <li><a class="dropdown-item " href="#">Action</a></li>
+                                                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                                    </ul>
+                                                  </div>
+                                                </td>
+                                                </tr>
+                                                <tr class="text-center">
+                                                  <td> 17</td>
+                                                  <td>Ramses</td>
+                                                  <td>ojeda</td>
+                                                  <td>ramsesaob@gmail.com</td>
+                                                  <td>0424-7177127</td>
+                                                  <td class="d-flex justify-content-center">
+                                                    <a class="btn btn-info me-2" href="#" role="button">ver</a>
+                                                    
+                                                    <div class="dropdown">
+                                                      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Dropdown button
+                                                      </button>
+                                                      <ul class="dropdown-menu btn-sm">
+                                                        <li><a class="dropdown-item " href="#">Action</a></li>
+                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                                      </ul>
+                                                    </div>
+                                                  </td>
+                                                  </tr>
+                                                  <tr class="text-center">
+                                                    <td> 18</td>
+                                                    <td>Ramses</td>
+                                                    <td>ojeda</td>
+                                                    <td>ramsesaob@gmail.com</td>
+                                                    <td>0424-7177127</td>
+                                                    <td class="d-flex justify-content-center">
+                                                      <a class="btn btn-info me-2" href="#" role="button">ver</a>
+                                                      
+                                                      <div class="dropdown">
+                                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                          Dropdown button
+                                                        </button>
+                                                        <ul class="dropdown-menu btn-sm">
+                                                          <li><a class="dropdown-item " href="#">Action</a></li>
+                                                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                                        </ul>
+                                                      </div>
+                                                    </td>
+                                                    </tr>
+
+              </tbody>
+              <tfoot>
+
+              </tfoot>
+              </table>
+            </div>
+          </div>
+      </section>
+      <section id="equipo" class="bg-light">
+        <h1 class="display-3 p-5 text-center text-secondary ">EQUIPO DE TRABAJO</h1>
+ 
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card " >
+                <div class="row g-0">
+                  <div class="col-md-6 bg-success">
+                    <img src="img/team-1.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-6 bg-success text-white">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Carlos Garcia</h5>
+                      <p class="card-text">Diseñador Gráfico</p>
+                      <p><small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima molestias corrupti doloribus consectetur exercitationem distinctio impedit incidunt, consequuntur, cum dignissimos nemo eveniet, numquam ipsam. Earum illum officia animi maiores nesciunt?</small></p>
+                    
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 ">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-6 bg-info">
+                    <img src="img/team-2.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-6 bg-info text-white">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Maria Gonzalez</h5>
+                      <p class="card-text">FrontEnd</p>
+                      <p><small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima molestias corrupti doloribus consectetur exercitationem distinctio impedit incidunt, consequuntur, cum dignissimos nemo eveniet, numquam ipsam. Earum illum officia animi maiores nesciunt?</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 ">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-6 bg-warning">
+                    <img src="img/team-3.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-6 bg-warning text-white">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Fernando Perdomo</h5>
+                      <p class="card-text">BackEnd</p>
+                      <p><small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima molestias corrupti doloribus consectetur exercitationem distinctio impedit incidunt, consequuntur, cum dignissimos nemo eveniet, numquam ipsam. Earum illum officia animi maiores nesciunt?</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 ">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-6 bg-warning">
+                    <img src="img/team-4.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-6 bg-dark text-white">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Amanda Fernandez</h5>
+                      <p class="card-text">BackEnd</p>
+                      <p><small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima molestias corrupti doloribus consectetur exercitationem distinctio impedit incidunt, consequuntur, cum dignissimos nemo eveniet, numquam ipsam. Earum illum officia animi maiores nesciunt?</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contactos">
+        <h1 class="display-3 p-5 text-center text-secondary ">CONTACTO</h1>
+        <div class="container-fluid">
+          <div class=" ">
+              <div class="row">
+                <div class="col-md-4 offset-md-4 ">
+                  <form action="">
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Indiciar el Nombre">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput2" class="form-label">Cedula</label>
+                      <input type="number" class="form-control" id="exampleFormControlInput2" placeholder="Indicar la Cedula">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput3" class="form-label">Telefono</label>
+                      <input type="tel" class="form-control" id="exampleFormControlInput3" placeholder="Indicar telefono">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput5" class="form-label">Fecha de Nacimiento</label>
+                      <input type="date" class="form-control" id="exampleFormControlInput5" placeholder="Indicar Fecha">
+                    </div>
+                   
+                    <div class="mb-3">
+                      <label for="exampleFormControlTextarea4" class="form-label">Descripcion</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea4" rows="3"></textarea>
+                    </div>
+                     
+                   </form>
+                </div>
+              </div>
+              
+             
+           </div>
+
+         </div>
+
+       </section>
+
     </main>
     <footer class="text-center bg-black">
-        <form class="d-flex" role="search">
-            <a href="#" class="btn btn-outline-info btn-lg" ><i class="bx bxl-twitter"></i></a>
-            <a href="#" class="btn btn-outline-info btn-lg" ><i class="bx bxl-facebook"></i></a>
-            <a href="#" class="btn btn-outline-info btn-lg" ><i class="bx bxl-instagram"></i></a>
-            <a href="#" class="btn btn-outline-info btn-lg" ><i class="bx bxl-skype"></i></a>
-            <a href="#" class="btn btn-outline-info btn-lg" ><i class="bx bxl-linkedin"></i></a>
-        </form>
+        
     </footer>
 
     <script src="vendor/bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
     <script src="vendor/aos/aos.js"></script>
+    <script src="vendor/datatable/jquery-3.7.0.js"></script>
+    <script src="vendor/datatable/jquery.dataTables.min.js"></script>
+    <script src="vendor/datatable/dataTables.bootstrap5.min.js"></script>
+   
     <script>
-        AOS.init();
+      AOS.init();
+    </script>
+      
+      <script>
+          var table = new DataTable('#example', {
+          language: {
+    "processing": "Procesando...",
+    "lengthMenu": "Mostrar _MENU_ registros",
+    "zeroRecords": "No se encontraron resultados",
+    "emptyTable": "Ningún dato disponible en esta tabla",
+    "infoEmpty": "Mostrando registros del 0 al 0 de un total de 0 registros",
+    "infoFiltered": "(filtrado de un total de _MAX_ registros)",
+    "search": "Buscar:",
+    "loadingRecords": "Cargando...",
+    "paginate": {
+        "first": "Primero",
+        "last": "Último",
+        "next": "Siguiente",
+        "previous": "Anterior"
+    },
+    "aria": {
+        "sortAscending": ": Activar para ordenar la columna de manera ascendente",
+        "sortDescending": ": Activar para ordenar la columna de manera descendente"
+    },
+    "buttons": {
+        "copy": "Copiar",
+        "colvis": "Visibilidad",
+        "collection": "Colección",
+        "colvisRestore": "Restaurar visibilidad",
+        "copyKeys": "Presione ctrl o u2318 + C para copiar los datos de la tabla al portapapeles del sistema. <br \/> <br \/> Para cancelar, haga clic en este mensaje o presione escape.",
+        "copySuccess": {
+            "1": "Copiada 1 fila al portapapeles",
+            "_": "Copiadas %ds fila al portapapeles"
+        },
+        "copyTitle": "Copiar al portapapeles",
+        "csv": "CSV",
+        "excel": "Excel",
+        "pageLength": {
+            "-1": "Mostrar todas las filas",
+            "_": "Mostrar %d filas"
+        },
+        "pdf": "PDF",
+        "print": "Imprimir",
+        "renameState": "Cambiar nombre",
+        "updateState": "Actualizar",
+        "createState": "Crear Estado",
+        "removeAllStates": "Remover Estados",
+        "removeState": "Remover",
+        "savedStates": "Estados Guardados",
+        "stateRestore": "Estado %d"
+    },
+    "autoFill": {
+        "cancel": "Cancelar",
+        "fill": "Rellene todas las celdas con <i>%d<\/i>",
+        "fillHorizontal": "Rellenar celdas horizontalmente",
+        "fillVertical": "Rellenar celdas verticalmente"
+    },
+    "decimal": ",",
+    "searchBuilder": {
+        "add": "Añadir condición",
+        "button": {
+            "0": "Constructor de búsqueda",
+            "_": "Constructor de búsqueda (%d)"
+        },
+        "clearAll": "Borrar todo",
+        "condition": "Condición",
+        "conditions": {
+            "date": {
+                "before": "Antes",
+                "between": "Entre",
+                "empty": "Vacío",
+                "equals": "Igual a",
+                "notBetween": "No entre",
+                "not": "Diferente de",
+                "after": "Después",
+                "notEmpty": "No Vacío"
+            },
+            "number": {
+                "between": "Entre",
+                "equals": "Igual a",
+                "gt": "Mayor a",
+                "gte": "Mayor o igual a",
+                "lt": "Menor que",
+                "lte": "Menor o igual que",
+                "notBetween": "No entre",
+                "notEmpty": "No vacío",
+                "not": "Diferente de",
+                "empty": "Vacío"
+            },
+            "string": {
+                "contains": "Contiene",
+                "empty": "Vacío",
+                "endsWith": "Termina en",
+                "equals": "Igual a",
+                "startsWith": "Empieza con",
+                "not": "Diferente de",
+                "notContains": "No Contiene",
+                "notStartsWith": "No empieza con",
+                "notEndsWith": "No termina con",
+                "notEmpty": "No Vacío"
+            },
+            "array": {
+                "not": "Diferente de",
+                "equals": "Igual",
+                "empty": "Vacío",
+                "contains": "Contiene",
+                "notEmpty": "No Vacío",
+                "without": "Sin"
+            }
+        },
+        "data": "Data",
+        "deleteTitle": "Eliminar regla de filtrado",
+        "leftTitle": "Criterios anulados",
+        "logicAnd": "Y",
+        "logicOr": "O",
+        "rightTitle": "Criterios de sangría",
+        "title": {
+            "0": "Constructor de búsqueda",
+            "_": "Constructor de búsqueda (%d)"
+        },
+        "value": "Valor"
+    },
+    "searchPanes": {
+        "clearMessage": "Borrar todo",
+        "collapse": {
+            "0": "Paneles de búsqueda",
+            "_": "Paneles de búsqueda (%d)"
+        },
+        "count": "{total}",
+        "countFiltered": "{shown} ({total})",
+        "emptyPanes": "Sin paneles de búsqueda",
+        "loadMessage": "Cargando paneles de búsqueda",
+        "title": "Filtros Activos - %d",
+        "showMessage": "Mostrar Todo",
+        "collapseMessage": "Colapsar Todo"
+    },
+    "select": {
+        "cells": {
+            "1": "1 celda seleccionada",
+            "_": "%d celdas seleccionadas"
+        },
+        "columns": {
+            "1": "1 columna seleccionada",
+            "_": "%d columnas seleccionadas"
+        },
+        "rows": {
+            "1": "1 fila seleccionada",
+            "_": "%d filas seleccionadas"
+        }
+    },
+    "thousands": ".",
+    "datetime": {
+        "previous": "Anterior",
+        "hours": "Horas",
+        "minutes": "Minutos",
+        "seconds": "Segundos",
+        "unknown": "-",
+        "amPm": [
+            "AM",
+            "PM"
+        ],
+        "months": {
+            "0": "Enero",
+            "1": "Febrero",
+            "10": "Noviembre",
+            "11": "Diciembre",
+            "2": "Marzo",
+            "3": "Abril",
+            "4": "Mayo",
+            "5": "Junio",
+            "6": "Julio",
+            "7": "Agosto",
+            "8": "Septiembre",
+            "9": "Octubre"
+        },
+        "weekdays": {
+            "0": "Dom",
+            "1": "Lun",
+            "2": "Mar",
+            "4": "Jue",
+            "5": "Vie",
+            "3": "Mié",
+            "6": "Sáb"
+        },
+        "next": "Próximo"
+    },
+    "editor": {
+        "close": "Cerrar",
+        "create": {
+            "button": "Nuevo",
+            "title": "Crear Nuevo Registro",
+            "submit": "Crear"
+        },
+        "edit": {
+            "button": "Editar",
+            "title": "Editar Registro",
+            "submit": "Actualizar"
+        },
+        "remove": {
+            "button": "Eliminar",
+            "title": "Eliminar Registro",
+            "submit": "Eliminar",
+            "confirm": {
+                "_": "¿Está seguro de que desea eliminar %d filas?",
+                "1": "¿Está seguro de que desea eliminar 1 fila?"
+            }
+        },
+        "error": {
+            "system": "Ha ocurrido un error en el sistema (<a target=\"\\\" rel=\"\\ nofollow\" href=\"\\\">Más información&lt;\\\/a&gt;).<\/a>"
+        },
+        "multi": {
+            "title": "Múltiples Valores",
+            "restore": "Deshacer Cambios",
+            "noMulti": "Este registro puede ser editado individualmente, pero no como parte de un grupo.",
+            "info": "Los elementos seleccionados contienen diferentes valores para este registro. Para editar y establecer todos los elementos de este registro con el mismo valor, haga clic o pulse aquí, de lo contrario conservarán sus valores individuales."
+        }
+    },
+    "info": "Mostrando _START_ a _END_ de _TOTAL_ registros",
+    "stateRestore": {
+        "creationModal": {
+            "button": "Crear",
+            "name": "Nombre:",
+            "order": "Clasificación",
+            "paging": "Paginación",
+            "select": "Seleccionar",
+            "columns": {
+                "search": "Búsqueda de Columna",
+                "visible": "Visibilidad de Columna"
+            },
+            "title": "Crear Nuevo Estado",
+            "toggleLabel": "Incluir:",
+            "scroller": "Posición de desplazamiento",
+            "search": "Búsqueda",
+            "searchBuilder": "Búsqueda avanzada"
+        },
+        "removeJoiner": "y",
+        "removeSubmit": "Eliminar",
+        "renameButton": "Cambiar Nombre",
+        "duplicateError": "Ya existe un Estado con este nombre.",
+        "emptyStates": "No hay Estados guardados",
+        "removeTitle": "Remover Estado",
+        "renameTitle": "Cambiar Nombre Estado",
+        "emptyError": "El nombre no puede estar vacío.",
+        "removeConfirm": "¿Seguro que quiere eliminar %s?",
+        "removeError": "Error al eliminar el Estado",
+        "renameLabel": "Nuevo nombre para %s:"
+    },
+    "infoThousands": "."
+},
+      });
       </script>
+      
 </body>
 </html>
